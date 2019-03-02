@@ -1,8 +1,8 @@
-﻿@page
-@model MyScriptureJournal.Pages.FavScriptEntries.CreateModel
+﻿@page "{id:int?}"
+@model MyScriptureJouranl.Pages.FavScriptEntries.IndexModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Index";
 }
 
 <h1>Index</h1>
@@ -22,17 +22,21 @@
             <th>
                 @Html.DisplayNameFor(model => model.JournalEntry[0].Date)
             </th>
+
             <th>
-                @Html.DisplayNameFor(model => model.Scriptures[0].Book)
+                @Html.DisplayNameFor(model => model.JournalEntry[0].Book)
             </th>
+
             <th>
-                @Html.DisplayNameFor(model => model.Scriptures[0].Chapter)
+                @Html.DisplayNameFor(model => model.JournalEntry[0].Chapter)
             </th>
+
             <th>
-                @Html.DisplayNameFor(model => model.Scriptures[0].Verse)
+                @Html.DisplayNameFor(model => model.JournalEntry[0].Verse)
             </th>
+
             <th>
-                @Html.DisplayNameFor(model => model.Scriptures[0].Read)
+                @Html.DisplayNameFor(model => model.JournalEntry[0].Read)
             </th>
             <th></th>
         </tr>
@@ -44,15 +48,19 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Date)
                 </td>
+
                 <td>
                     @Html.DisplayFor(modelItem => item.Book)
                 </td>
+
                 <td>
                     @Html.DisplayFor(modelItem => item.Chapter)
                 </td>
+
                 <td>
                     @Html.DisplayFor(modelItem => item.Verse)
                 </td>
+
                 <td>
                     @Html.DisplayFor(modelItem => item.Read)
                 </td>

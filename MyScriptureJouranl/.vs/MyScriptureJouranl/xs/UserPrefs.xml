@@ -1,10 +1,5 @@
 ﻿<Properties StartupConfiguration="{69B304F4-AAC2-47E4-ABDB-79C94F7D40E7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyScriptureJouranl/Pages/FavScriptEntries/Index.cshtml">
-    <Files>
-      <File FileName="MyScriptureJouranl/Pages/FavScriptEntries/Create.cshtml.cs" Line="15" Column="10" />
-      <File FileName="MyScriptureJouranl/Pages/FavScriptEntries/Index.cshtml" Line="23" Column="58" />
-      <File FileName="MyScriptureJouranl/Pages/FavScriptEntries/Index.cshtml.cs" Line="9" Column="13" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">

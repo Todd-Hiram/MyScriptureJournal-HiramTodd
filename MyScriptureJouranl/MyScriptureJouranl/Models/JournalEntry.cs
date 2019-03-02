@@ -7,6 +7,8 @@ namespace MyScriptureJouranl.Models
     {
         public int ID { get; set; }
 
+        [StringLength(12, MinimumLength =5)]
+        [Required]
         public string Book { get; set; }
 
         [DataType(DataType.Date)]
@@ -14,7 +16,7 @@ namespace MyScriptureJouranl.Models
 
         [StringLength(15, MinimumLength = 3)]
         [Required]
-        public string Note { get; set; }
+        public string Read { get; set; }
 
         public int Chapter { get; set; }
 

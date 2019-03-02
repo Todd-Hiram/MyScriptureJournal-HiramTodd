@@ -28,3 +28,5 @@
 /Users/hiramtodd/Documents/GitHub/MyScriptureJournal-HiramTodd/MyScriptureJournal-HiramTodd/MyScriptureJouranl/MyScriptureJouranl/obj/Debug/netcoreapp2.2/MyScriptureJouranl.dll
 /Users/hiramtodd/Documents/GitHub/MyScriptureJournal-HiramTodd/MyScriptureJournal-HiramTodd/MyScriptureJouranl/MyScriptureJouranl/obj/Debug/netcoreapp2.2/MyScriptureJouranl.pdb
 /Users/hiramtodd/Documents/GitHub/MyScriptureJournal-HiramTodd/MyScriptureJournal-HiramTodd/MyScriptureJouranl/MyScriptureJouranl/obj/Debug/netcoreapp2.2/MyScriptureJouranl.csproj.CopyComplete
+/Users/hiramtodd/Documents/GitHub/MyScriptureJournal-HiramTodd/MyScriptureJournal-HiramTodd/MyScriptureJouranl/MyScriptureJouranl/obj/Debug/netcoreapp2.2/Razor/Pages/FavScriptEntries/Create.g.cshtml.cs
+/Users/hiramtodd/Documents/GitHub/MyScriptureJournal-HiramTodd/MyScriptureJournal-HiramTodd/MyScriptureJouranl/MyScriptureJouranl/obj/Debug/netcoreapp2.2/Razor/Pages/FavScriptEntries/Index.g.cshtml.cs

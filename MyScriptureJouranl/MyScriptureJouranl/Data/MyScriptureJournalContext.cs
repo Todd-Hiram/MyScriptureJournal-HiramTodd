@@ -4,7 +4,9 @@ namespace MyScriptureJouranl.Models
 {
     public class MyScriptureJournalContext : DbContext
         {
-            public MyScriptureJournalContext (DbContextOptions<MyScriptureJournalContext> options) : base(options)
+        internal readonly object Scripture;
+
+        public MyScriptureJournalContext (DbContextOptions<MyScriptureJournalContext> options) : base(options)
             {
             }
 

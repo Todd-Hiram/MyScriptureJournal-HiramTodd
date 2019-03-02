@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using FavScriptureJouranl.Models;
+using FavScriptureJournal.Models;
 using MyScriptureJouranl.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;

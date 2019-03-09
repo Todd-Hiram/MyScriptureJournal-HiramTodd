@@ -1,0 +1,63 @@
+﻿@page
+@{
+    Layout = "~/_Layout.schtml";
+    //Page.Title = "Quote List";
+
+    var db = Database.Open("MegaDeskDB");
+    var selectCommand = "SELECT * FROM DeskQuote";
+
+    if (!Request.QueryString["searchFirstName"].IsEmpty())
+    {
+
+    }
+
+    if (!Request.QueryString["searchLastName"].IsEmpty())
+    {
+
+    }
+
+    var selectData = db.Query("...");
+    var grid = new WebGrid(source: selectData, defaultSort: "CustomerName", rowsPerPage: 4);
+
+}
+
+<h2>Quote List</h2>
+<hr />
+
+<form method="get">
+    <div>
+        <label>Sort by First Name</label>
+        <input />
+        <input /><br />
+    </div>
+
+    <div>
+        <label>Sort by Last Name</label>
+        <input />
+        <input /><br />
+    </div>
+</form>
+
+<div>
+    @grid.GetHtml(
+        tableStyle: "grid",
+        headerStyle: "",
+        alternatingRowStyle: "alt",
+        columns: grid.columns(
+            grid.Column(format: @<a href="~/EditQuote?id=@item.ID">Edit</a>),
+            grid.Column("Date"),
+            grid.Column("CustomerName"),
+            grid.Column("Total"),
+            grid.Column("Width"),
+            grid.Column("Depth"),
+            grid.Column("Drawers"),
+            grid.Column("Materials"),
+            grid.Column("ShippingSpeed"),
+            grid.Column(@<a href="~/DeleteQuote?id=@item.ID">Delete</a>)
+            ))
+</div>
+
+<p>
+    <a href=""></a>
+</p>
+
